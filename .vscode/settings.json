@@ -1,3 +1,5 @@
 {
-  "livePreview.defaultPreviewPath": "/chapter4/ch4pacific/index.html"
+  "livePreview.defaultPreviewPath": "/chapter4/ch4pacific/index.html",
+  "spellright.language": ["en"],
+  "spellright.documentTypes": ["markdown", "latex", "plaintext"]
 }
