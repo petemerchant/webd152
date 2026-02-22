@@ -156,7 +156,6 @@ footer {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-/* Table Styles  */
 table {
   border: 0.125rem solid #1976d2;
   border-collapse: collapse;
@@ -180,7 +179,6 @@ td {
 tr:nth-of-type(odd) {
   background-color: #ffcd6f;
 }
-
 form {
   display: flex;
   flex-direction: column;
@@ -212,7 +210,7 @@ textarea:focus {
   border-color: #003;
   outline: none;
 }
-input [type="submit"] {
+input[type="submit"] {
   background-color: #003;
   color: #fff;
   border: none;
@@ -223,9 +221,9 @@ input [type="submit"] {
   cursor: pointer;
   transition: background 0.2s;
 }
-input [type="submit"]:hover,
-input [type="submit"]:focus {
-  background-color: #003;
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background-color: #0b0b8b;
 }
 .center {
   display: flex;
@@ -241,7 +239,6 @@ input [type="submit"]:focus {
 .center > p {
   margin: 0;
 }
-
 @media (max-width: 32.5rem) {
   body {
     background-image: none;
