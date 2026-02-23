@@ -117,7 +117,8 @@ footer {
 #homehero,
 #yurthero,
 #trailhero,
-#reservations-hero {
+#reservations-hero,
+#abouthero {
   background-repeat: no-repeat; /* bgr  */
   background-size: cover; /* bgc  */
   height: 18.75rem; /* h10.85rem  */
@@ -133,6 +134,9 @@ footer {
 }
 #reservations-hero {
   background-image: url(images/reservations.jpg);
+}
+#abouthero {
+  background-image: url(images/abouthero.jpg);
 }
 .card-row {
   display: flex;
