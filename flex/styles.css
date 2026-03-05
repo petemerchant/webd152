@@ -61,7 +61,7 @@ footer {
   text-align: center;
   font-size: 80%;
   font-style: italic;
-  color: #003300;
+  /* color: #003300; */
   padding: 2.5%;
 }
 /* new flexbox style */
