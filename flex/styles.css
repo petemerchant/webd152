@@ -64,6 +64,21 @@ footer {
   color: #003300;
   padding: 2.5%;
 }
+/* new flexbox style */
+#demo {
+  display: flex;
+  flex-direction: row;
+}
+nav {
+  flex: 1;
+}
+main {
+  flex: 7;
+}
+aside {
+  flex: 2;
+}
+
 @media only screen and (max-width: 1024px) {
   body {
     margin: 0;
@@ -76,12 +91,29 @@ footer {
   h1 {
     font-size: 200%;
   }
+  /* adding flex to kick in for the layout */
+  #demo {
+    flex-direction: column;
+  }
+  /* adding menu to go into a row on top instead of column  */
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
   nav li {
     padding: 0 0.5em;
     font-size: 1.2em;
   }
 }
 @media only screen and (max-width: 768px) {
+  /* put the nav at the bottom  */
+  nav {
+    order: 1;
+  }
+  nav ul {
+    flex-wrap: wrap;
+  }
 }
 header,
 main,
