@@ -294,6 +294,7 @@ input[type="submit"]:focus {
   object-fit: cover;
   transition: transform 0.3s ease;
 }
+
 /* figcaption */
 .gallery-image figcaption {
   position: absolute;
