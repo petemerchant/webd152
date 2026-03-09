@@ -77,9 +77,6 @@ main {
   background-color: #fff; /* BGC#FF */
   padding: 0.0625rem 1.25rem 1.25rem 1.875rem;
 }
-section {
-  /* padding: 1rem 0; */
-}
 h1 {
   letter-spacing: 0.25em; /* lts.25em  */
   margin-bottom: 0; /* mb0 */
